@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1219px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-width: 320px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+header{
+    max-width: 100%;
+    background: #343A40;
+}
+.navbar-brand{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+.navbar-nav{
+    list-style: none; /*убирает маркеры в списке*/
+    padding: 0; /*убрать отступ от начала списка*/
+    margin: 0;
+}
+.nav-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding-right: 16px;
+}
+
+
+
+.main{
+    background: #E9ECEF;
+}
+.Jumbotron-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    color: #212529;
+    margin-bottom: 8px;
+    margin-top: 64px;
+}
+.Jumbotron-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212529;
+    margin-bottom: 16px;
+}
+.give {
+    margin-bottom: 64px;
+}
+
+
+.card{
+    margin-top: 32px;
+    color: #000000;    
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+.card-header{
+    font-size: 16px;
+    line-height: 19px;
+}
+.card-body{
+    font-size: 20px;
+    line-height: 23px;   
+}
+
+
+.table{
+    color: #007BFF;
+    margin-bottom: 73px;
+}
+.text-body, th{
+    color: #000000;
+}
+
+
+footer{
+    background: #F5F5F5;
+    padding: 16px 0;
+    max-width: 100%;
+}
+.footer-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6C757D
+}
+
+@media (max-width: 400px)  {
+    .Jumbotron-title{
+        font-size: 48px;
+        line-height: 56px;
+    }
